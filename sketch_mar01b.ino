@@ -17,6 +17,8 @@ void setup() {
   pinMode(MOTOR_R_B, OUTPUT);
   pinMode(LEFT_E, INPUT);
   pinMode(LEFT_T, OUTPUT);
+  pinMode(FRONT_E, INPUT);
+  pinMode(FRONT_T, OUTPUT);
   pinMode(MOTORSPEED_L, OUTPUT);
   pinMode(MOTORSPEED_R, OUTPUT);
   analogWrite(MOTORSPEED_L, 220);
